@@ -59,7 +59,7 @@ metadata:
   namespace: devops
 spec:
   selector:
-    app: counter
+    app: guestbook
   ports:
     - port: 80
       targetPort: 5000
